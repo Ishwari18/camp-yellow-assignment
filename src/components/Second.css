@@ -1,0 +1,112 @@
+
+.back-btn {
+    border-radius: 40px;
+    background-color: rgb(233, 230, 217);
+    width: 100px;
+}
+.back-btn a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(233, 230, 217);
+}
+.back-btn a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(248, 245, 233);
+}
+.back-btn:hover {
+    border-radius: 40px;
+    background-color: rgb(248, 245, 233);
+}
+.download-btn {
+    border-radius: 40px;
+    background-color: rgb(233, 230, 217);
+    width: 140px;
+}
+.download-btn a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(233, 230, 217);
+}
+.download-btn a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(248, 245, 233);
+}
+.download-btn:hover {
+    border-radius: 40px;
+    background-color: rgb(248, 245, 233);
+}
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+.second-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 30px;
+}
+.card {
+    background-color: rgb(253, 252, 248);
+    border: 2px solid;
+    border-radius: 40px;
+    color: black;
+    align-content: center;
+}
+.card-body {
+    align-content: center;
+}
+.card-body img {
+ width: 100px;
+ margin: 10px;
+ position: relative;
+ left: 55px;
+} 
+.card-body p {
+    align-content: center;
+    position: relative;
+    left: 32px;
+    margin: auto;
+}
+.card-text {
+    margin: auto;
+}
+.final-btn {
+    margin: auto;
+}
+#custom-btn {
+    border-radius: 40px;
+    background-color: rgb(233, 230, 217);
+    width: 200px;
+    margin: auto;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    
+}
+#custom-btn a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(233, 230, 217);
+}
+#custom-btn a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(248, 245, 233);
+}
+#custom-btn:hover {
+    border-radius: 40px;
+    background-color: rgb(248, 245, 233);
+}
+.final-btn {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(233, 230, 217);
+    text-decoration: none;
+    color: black;
+    border-radius: 40px;
+    padding:  10px 20px; 
+    position: relative;
+    left: 580px;
+}

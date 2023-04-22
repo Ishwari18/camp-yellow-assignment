@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Deli;
+    src: url(fonts/Deli.otf);
+}
+.navbar {
+    font-family: Deli;
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 245, 235);
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 95%;
+    margin: 20px auto;
+    padding: 0px;
+    height: 50px;
+}
+.navbar-brand {
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 20px;
+}
+.container-fluid span {
+    position: relative;
+    right: 50px;
+}

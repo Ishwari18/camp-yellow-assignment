@@ -1,0 +1,61 @@
+
+.main {
+    width: 95%;
+    font-family: Deli;
+    background-color: rgb(247, 245, 235);
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 95%;
+    height: 550px;
+    margin: 30px auto;
+    align-content: center;
+}
+.main-fluid span {
+    position: relative;
+    right: 50px; 
+}
+@font-face {
+    font-family: Deli;
+    src: url(fonts/Deli.otf);
+}
+.form-label {
+    font-size: 35px;
+}
+.form-input  {
+    background-color: rgb(233, 230, 217);
+    box-shadow: 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    width: 400px;
+    margin-top: 10px;
+}
+.vidtext {
+    font-size: 20px;
+    position: relative; 
+    bottom: 40px;
+    left: 5px;
+}
+.v {
+    border-radius: 20px;
+}
+.submit-btn {
+    border-radius: 40px;
+    background-color: rgb(233, 230, 217);
+    width: 150px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.submit-btn a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(233, 230, 217);
+}
+.submit-btn a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(248, 245, 233);
+}
+.submit-btn:hover {
+    border-radius: 40px;
+    background-color: rgb(248, 245, 233);
+}
