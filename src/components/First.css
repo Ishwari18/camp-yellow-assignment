@@ -1,61 +1,211 @@
-
 .main {
-    width: 95%;
-    font-family: Deli;
-    background-color: rgb(247, 245, 235);
-    border: 2px solid black;
-    border-radius: 40px;
-    width: 95%;
-    height: 550px;
-    margin: 30px auto;
-    align-content: center;
+  width: 95%;
+  font-family: batman;
+  border-radius: 40px;
+  width: 95%;
+  height: 550px;
+  margin: 30px auto;
+  align-content: center;
+  z-index: +10000;
+  background-color: rgba(240, 248, 255, 0.222);
+  border: 4px rgba(229, 241, 251, 0.584) solid;
+  box-shadow: 300px;
 }
 .main-fluid span {
-    position: relative;
-    right: 50px; 
+  position: relative;
+  right: 50px;
 }
 @font-face {
-    font-family: Deli;
-    src: url(fonts/Deli.otf);
+  font-family: Deli;
+  src: url(fonts/Deli.otf);
+}
+@font-face {
+  font-family: batman;
+  src: url(fonts/batmfa__.ttf);
 }
 .form-label {
-    font-size: 35px;
+  font-size: 35px;
 }
-.form-input  {
-    background-color: rgb(233, 230, 217);
-    box-shadow: 20px;
-    border-radius: 20px;
-    border: 1px solid;
-    width: 400px;
-    margin-top: 10px;
+.form-input {
+  box-shadow: 20px;
+  border-radius: 20px;
+  width: 400px;
+  margin-top: 10px;
+  background-color: rgba(219, 238, 255, 0.655);
+  border: 1px rgba(42, 159, 255, 0.819) solid;
 }
 .vidtext {
-    font-size: 20px;
-    position: relative; 
-    bottom: 40px;
-    left: 5px;
+  font-size: 20px;
+  position: relative;
+  bottom: 40px;
+  left: 5px;
 }
 .v {
-    border-radius: 20px;
+  border-radius: 20px;
 }
-.submit-btn {
-    border-radius: 40px;
-    background-color: rgb(233, 230, 217);
-    width: 150px;
-    padding: 5px 10px;
-    margin-top: 10px;
+.submit{
+  border-radius: 40px;
+  width: 150px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  background-color: transparent;
 }
-.submit-btn a {
-    text-decoration: none;
-    color: black;
-    background-color: rgb(233, 230, 217);
+.submit a {
+  text-decoration: none;
+  color: black;
 }
-.submit-btn a:hover {
-    text-decoration: none;
-    color: black;
-    background-color: rgb(248, 245, 233);
+.submit a:hover {
+  text-decoration: none;
+  color: black;
 }
-.submit-btn:hover {
-    border-radius: 40px;
-    background-color: rgb(248, 245, 233);
+.submit:hover {
+  border-radius: 40px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+section {
+  z-index: -10000;
+}
+#up {
+  position: absolute;
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgba(179, 217, 255, 0.754),
+    rgba(234, 191, 243, 0.859)
+  );
+  filter: blur(80px);
+  animation: down 10s infinite;
+}
+#down {
+  position: absolute;
+  right: 0;
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgb(185, 227, 248),
+    rgba(232, 200, 248, 0.695)
+  );
+  filter: blur(80px);
+  animation: up 10s infinite;
+}
+@keyframes down {
+  0%,
+  100% {
+    top: -100px;
+  }
+  50% {
+    top: 700px;
+  }
+}
+@keyframes up {
+  0%,
+  100% {
+    bottom: -100px;
+  }
+  60% {
+    bottom: 700px;
+  }
+}
+#left {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgb(252, 233, 251),
+    rgba(123, 232, 230, 0.698)
+  );
+  filter: blur(80px);
+  animation: left 10s infinite;
+}
+#right {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgb(233, 249, 252),
+    rgba(246, 191, 234, 0.698)
+  );
+  filter: blur(80px);
+  animation: right 10s infinite;
+}
+@keyframes left {
+  0%,
+  100% {
+    left: -100px;
+  }
+  60% {
+    left: 800px;
+  }
+}
+@keyframes right {
+  0%,
+  100% {
+    right: -100px;
+  }
+  60% {
+    right: 800px;
+  }
+}
+#slant {
+  position: absolute;
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgb(226, 205, 255),
+    rgba(185, 98, 238, 0.374)
+  );
+  filter: blur(80px);
+  animation: slant 12s infinite;
+}
+@keyframes slant {
+  0%,
+  100% {
+    right: -100px;
+    top: -100px;
+  }
+  60% {
+    right: 880px;
+    top: 800px;
+  }
+}
+#leftest {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgb(252, 233, 251),
+    rgba(19, 131, 129, 0.698)
+  );
+  filter: blur(80px);
+  animation: leftest 11s infinite;
+}
+
+@keyframes slant {
+  0%,
+  100% {
+    left: 50px;
+    top: -50px;
+  }
+  60% {
+    left: 100px;
+    top: 800px;
+  }
 }

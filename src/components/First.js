@@ -25,12 +25,19 @@ export default function First() {
                 aria-describedby="emailHelp"
               />
             </div>
-            <button type="submit" className="submit-btn">
+            <button type="submit" className="submit">
               <a href="/next">Submit</a>
             </button>
           </form>
         </div>
       </div>
+
+      <section id="up"></section>
+      <section id="down"></section>
+      <section id="left"></section>
+      <section id="right"></section>
+      <section id="slant"></section>
+      <section id="leftest"></section>
     </>
   );
 }

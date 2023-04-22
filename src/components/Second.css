@@ -1,112 +1,311 @@
-
 .back-btn {
-    border-radius: 40px;
-    background-color: rgb(233, 230, 217);
-    width: 100px;
+  border-radius: 40px;
+  width: 100px;
+  background-color: rgba(240, 248, 255, 0.199);
 }
 .back-btn a {
-    text-decoration: none;
-    color: black;
-    background-color: rgb(233, 230, 217);
+  text-decoration: none;
+  color: black;
 }
 .back-btn a:hover {
-    text-decoration: none;
-    color: black;
-    background-color: rgb(248, 245, 233);
+  text-decoration: none;
+  color: black;
 }
 .back-btn:hover {
-    border-radius: 40px;
-    background-color: rgb(248, 245, 233);
+  border-radius: 40px;
 }
 .download-btn {
-    border-radius: 40px;
-    background-color: rgb(233, 230, 217);
-    width: 140px;
+  border-radius: 40px;
+  width: 140px;
+  background-color: rgba(240, 248, 255, 0.199);
 }
 .download-btn a {
-    text-decoration: none;
-    color: black;
-    background-color: rgb(233, 230, 217);
+  text-decoration: none;
+  color: black;
 }
 .download-btn a:hover {
-    text-decoration: none;
-    color: black;
-    background-color: rgb(248, 245, 233);
+  text-decoration: none;
+  color: black;
 }
 .download-btn:hover {
-    border-radius: 40px;
-    background-color: rgb(248, 245, 233);
+  border-radius: 40px;
 }
 .first-row {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px;
+  z-index: +10000;
 }
 .second-row {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 40px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 30px;
+  z-index: +10000;
+  height: 350px;
 }
 .card {
-    background-color: rgb(253, 252, 248);
-    border: 2px solid;
-    border-radius: 40px;
-    color: black;
-    align-content: center;
+  border: none;
+  border-radius: 40px;
+  color: black;
+  align-content: center;
+  box-shadow: 300px blue;
+  background-color: transparent;
+  z-index: +10000;
 }
 .card-body {
-    align-content: center;
+  align-content: center;
+  background-color: transparent;
+  z-index: +10000;
 }
 .card-body img {
- width: 100px;
- margin: 10px;
- position: relative;
- left: 55px;
-} 
+  width: 100px;
+  margin: 10px;
+  position: relative;
+  left: 55px;
+  z-index: +10000;
+}
 .card-body p {
-    align-content: center;
-    position: relative;
-    left: 32px;
-    margin: auto;
+  align-content: center;
+  position: relative;
+  left: 32px;
+  margin: auto;
 }
 .card-text {
-    margin: auto;
+  margin: auto;
 }
 .final-btn {
-    margin: auto;
+  margin: auto;
+  background-color: rgba(240, 248, 255, 0.199);
 }
 #custom-btn {
-    border-radius: 40px;
-    background-color: rgb(233, 230, 217);
-    width: 200px;
-    margin: auto;
-    position: relative;
-    left: 25px;
-    top: 10px;
-    
+  border-radius: 40px;
+  width: 200px;
+  margin: auto;
+  position: relative;
+  left: 25px;
+  background-color: rgba(240, 248, 255, 0.199);
 }
 #custom-btn a {
-    text-decoration: none;
-    color: black;
-    background-color: rgb(233, 230, 217);
+  text-decoration: none;
+  color: black;
 }
 #custom-btn a:hover {
-    text-decoration: none;
-    color: black;
-    background-color: rgb(248, 245, 233);
+  text-decoration: none;
+  color: black;
 }
 #custom-btn:hover {
-    border-radius: 40px;
-    background-color: rgb(248, 245, 233);
+  border-radius: 40px;
 }
 .final-btn {
-    text-decoration: none;
-    color: black;
-    background-color: rgb(233, 230, 217);
-    text-decoration: none;
-    color: black;
-    border-radius: 40px;
-    padding:  10px 20px; 
-    position: relative;
-    left: 580px;
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+  color: black;
+  border-radius: 40px;
+  padding: 10px 20px;
+  position: relative;
+  bottom: 100px;
+  left: 510px;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+section {
+  z-index: -10000;
+}
+#up {
+  position: absolute;
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgba(179, 217, 255, 0.754),
+    rgba(234, 191, 243, 0.859)
+  );
+  filter: blur(80px);
+  animation: down 10s infinite;
+}
+#down {
+  position: absolute;
+  right: 0;
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgb(185, 227, 248),
+    rgba(232, 200, 248, 0.695)
+  );
+  filter: blur(80px);
+  animation: up 10s infinite;
+}
+@keyframes down {
+  0%,
+  100% {
+    top: -100px;
+  }
+  50% {
+    top: 700px;
+  }
+}
+@keyframes up {
+  0%,
+  100% {
+    bottom: -100px;
+  }
+  60% {
+    bottom: 700px;
+  }
+}
+#left {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgb(252, 233, 251),
+    rgba(123, 232, 230, 0.698)
+  );
+  filter: blur(80px);
+  animation: left 10s infinite;
+}
+#right {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgb(233, 249, 252),
+    rgba(246, 191, 234, 0.698)
+  );
+  filter: blur(80px);
+  animation: right 10s infinite;
+}
+@keyframes left {
+  0%,
+  100% {
+    left: -100px;
+  }
+  60% {
+    left: 800px;
+  }
+}
+@keyframes right {
+  0%,
+  100% {
+    right: -100px;
+  }
+  60% {
+    right: 800px;
+  }
+}
+#slant {
+  position: absolute;
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgb(226, 205, 255),
+    rgba(185, 98, 238, 0.374)
+  );
+  filter: blur(80px);
+  animation: slant 12s infinite;
+}
+@keyframes slant {
+  0%,
+  100% {
+    right: -100px;
+    top: -100px;
+  }
+  60% {
+    right: 880px;
+    top: 800px;
+  }
+}
+#leftest {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgb(252, 233, 251),
+    rgba(19, 131, 129, 0.698)
+  );
+  filter: blur(80px);
+  animation: leftest 11s infinite;
+}
+
+@keyframes slant {
+  0%,
+  100% {
+    left: 50px;
+    top: -50px;
+  }
+  60% {
+    left: 100px;
+    top: 800px;
+  }
+}
+.images {
+    position: relative;
+    right: 40px;
+    height: 200px;
+    width: 350px;
+}
+#starimg1 {
+    position: relative;
+    top: 60px;
+    right: 300px;
+}
+#filmroll{
+    position: relative;
+    left: -4px;
+    top: 40px;
+    z-index: +100;
+}
+#starimg2 {
+    position: relative;
+    left: 175px;
+    bottom: 103px;
+}
+#heart2a {
+    position: relative;
+    left: 38px;
+    bottom: -45px;
+}
+#heart2b {
+    position: relative;
+    left: 173px;
+    bottom: 56px;
+}
+#pc {
+    position: relative;
+    left: -7px;
+    bottom: -28px;
+}
+#heart1a {
+    position: relative;
+    left: 34px;
+    bottom: -48px;
+}
+#heart1b {
+    position: relative;
+    left: 162px;
+    bottom: 62px;
+}
+#gamectrl {
+    position: relative;
+    left: -14px;
+    bottom: -23px;
+
+}
+
+

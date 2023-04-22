@@ -2,21 +2,30 @@
     font-family: Deli;
     src: url(fonts/Deli.otf);
 }
+@font-face {
+    font-family: batman;
+    src: url(fonts/batmfa__.ttf);
+}
+
+.container-fluid a {
+    background-color: transparent;
+    z-index: +10000;
+}
 .navbar {
-    font-family: Deli;
+    font-family: batman;
     color: rgb(0, 0, 0);
-    background-color: rgb(247, 245, 235);
-    border: 2px solid black;
-    border-radius: 30px;
     width: 95%;
     margin: 20px auto;
     padding: 0px;
     height: 50px;
+    background-color: transparent;
 }
 .navbar-brand {
     color: rgb(0, 0, 0);
     position: relative;
     left: 20px;
+    background-color: transparent;
+    font-size: 30px;
 }
 .container-fluid span {
     position: relative;

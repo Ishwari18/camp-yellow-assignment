@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="navbar">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            Wuri
           </a>
           <span className="nav-right">Writing Assignment</span>
         </div>
