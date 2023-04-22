@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/camp-yellow-assignment/static/css/main.d4ff2791.css",
+    "main.js": "/camp-yellow-assignment/static/js/main.0ff49d53.js",
+    "static/js/787.5c4d99df.chunk.js": "/camp-yellow-assignment/static/js/787.5c4d99df.chunk.js",
+    "static/media/videoplayback.mp4": "/camp-yellow-assignment/static/media/videoplayback.087c589fd1a93ef9caa5.mp4",
+    "static/media/pc.png": "/camp-yellow-assignment/static/media/pc.46a65afc0f74f090b226.png",
+    "static/media/film-roll.png": "/camp-yellow-assignment/static/media/film-roll.88f5029f422e95b421d6.png",
+    "static/media/game-controller.png": "/camp-yellow-assignment/static/media/game-controller.15327151ad021122ea63.png",
+    "static/media/heart1.png": "/camp-yellow-assignment/static/media/heart1.7473b24506aac4e1b059.png",
+    "static/media/heart2.png": "/camp-yellow-assignment/static/media/heart2.6a45400c90ea8de3d5ec.png",
+    "static/media/batmfa__.ttf": "/camp-yellow-assignment/static/media/batmfa__.83168830dd1fb811c114.ttf",
+    "static/media/single_star.png": "/camp-yellow-assignment/static/media/single_star.31614c5f83425eeeef67.png",
+    "static/media/Deli.otf": "/camp-yellow-assignment/static/media/Deli.dd1b19194de31ba756e5.otf",
+    "static/media/3-removebg-preview.png": "/camp-yellow-assignment/static/media/3-removebg-preview.40b727883ef711563bb2.png",
+    "index.html": "/camp-yellow-assignment/index.html",
+    "main.d4ff2791.css.map": "/camp-yellow-assignment/static/css/main.d4ff2791.css.map",
+    "main.0ff49d53.js.map": "/camp-yellow-assignment/static/js/main.0ff49d53.js.map",
+    "787.5c4d99df.chunk.js.map": "/camp-yellow-assignment/static/js/787.5c4d99df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4ff2791.css",
+    "static/js/main.0ff49d53.js"
+  ]
+}
