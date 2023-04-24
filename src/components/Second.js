@@ -16,7 +16,7 @@ export default function Second() {
       <div className="main">
         <div className="first-row d-flex">
           <button style={{ color: "white" }} className="back-btn ">
-            <a href="/">Back</a>
+            <a href="/camp-yellow-assignment">Back</a>
           </button>
           <div style={{ fontSize: "30px" }}>Update Game Files</div>
           <button

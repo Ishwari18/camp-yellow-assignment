@@ -26,7 +26,7 @@ export default function First() {
               />
             </div>
             <button type="submit" className="submit">
-              <a href="/next">Submit</a>
+              <a href="/camp-yellow-assignment/next">Submit</a>
             </button>
           </form>
         </div>

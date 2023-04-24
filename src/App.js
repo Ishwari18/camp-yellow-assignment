@@ -10,8 +10,8 @@ function App() {
       <Navbar />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<First />} />
-          <Route path="/next" element={<Second />} />
+          <Route path="/camp-yellow-assignment" element={<First />} />
+          <Route path="/camp-yellow-assignment/next" element={<Second />} />
         </Routes>
       </BrowserRouter>
     </>
